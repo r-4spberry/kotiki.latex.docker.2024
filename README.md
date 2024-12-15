@@ -1,6 +1,4 @@
-# Fullstack Application with Docker Compose
-
-This project includes a **frontend client** built with Vite and a **backend server** using Flask. Both are containerized using Docker and orchestrated with Docker Compose.
+# Инструментарий создания и анализа математически записей. Команда "Котики", 2024
 
 ---
 
@@ -40,17 +38,6 @@ This project includes a **frontend client** built with Vite and a **backend serv
 3. Access the application:
    - **Frontend (Vite)**: `http://localhost:8080`
    - **Backend (Flask API)**: `http://localhost:5000`
-
----
-
-## Development Tips
-- To stop the containers:
-  ```bash
-  docker-compose down
-  ```
-
-- Modify the files in the `client` or `server` directories for live updates (with volumes).
-
 
 ---
 
