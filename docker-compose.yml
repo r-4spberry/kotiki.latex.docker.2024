@@ -5,8 +5,6 @@ services:
       dockerfile: Dockerfile
     ports:
       - "5000:5000"
-    env_file:
-      - ./server/.env
     volumes:
       - ./server:/app
     restart: unless-stopped
