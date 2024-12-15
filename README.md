@@ -1,14 +1,15 @@
-# Инструментарий создания и анализа математически записей. Команда "Котики", 2024
+
+# Инструментарий создания и анализа математических записей. Команда "Котики", 2024
 
 ---
 
-## Project Structure
+## Структура проекта
 ```plaintext
 .
-├── client/           # Frontend Vite application
+├── client/           # Фронтенд-приложение на основе Vite
 │   ├── Dockerfile
 │   └── ...
-├── server/           # Backend Flask server
+├── server/           # Бэкенд-сервер на Flask
 │   ├── Dockerfile
 │   └── ...
 └── docker-compose.yml
@@ -16,36 +17,36 @@
 
 ---
 
-## Prerequisites
+## Предварительные требования
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
 
 ---
 
-## Running the Project
+## Запуск проекта
 
-1. Clone the repository:
+1. Клонируйте репозиторий:
    ```bash
    git clone <repo-url>
    cd <repo-folder>
    ```
 
-2. Start the services using Docker Compose:
+2. Запустите сервисы с помощью Docker Compose:
    ```bash
    docker compose up --build
    ```
 
-3. Access the application:
-   - **Frontend (Vite)**: `http://localhost:8080`
-   - **Backend (Flask API)**: `http://localhost:5000`
+3. Доступ к приложению:
+   - **Фронтенд (Vite)**: `http://localhost:8080`
+   - **Бэкенд (Flask API)**: `http://localhost:5000`
 
 ---
 
-## Troubleshooting
-- Ensure Docker and Docker Compose are installed and running.
-- Check that ports `8080` and `5000` are not in use.
+## Устранение неполадок
+- Убедитесь, что Docker и Docker Compose установлены и работают.
+- Проверьте, что порты `8080` и `5000` не заняты другими процессами.
 
 ---
 
-## License
-MIT License
+## Лицензия
+Лицензия MIT
