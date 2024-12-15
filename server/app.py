@@ -30,10 +30,7 @@ with open("operations.yml", "r") as file:
     operations_config = yaml.safe_load(file)
 
 
-
-
-sys.path.append(os.path.abspath("expressionChecker/src"))
-from expressionchecker import ExpressionChecker
+from expressionChecker import ExpressionChecker
 
 app = Flask(__name__)
 CORS(app)
